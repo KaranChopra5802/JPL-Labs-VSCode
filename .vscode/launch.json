@@ -1,0 +1,99 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Jswings_Form",
+            "request": "launch",
+            "mainClass": "Jswings_Form",
+            "projectName": "JPL Labs VSCode_9bec5638"
+        },
+        {
+            "type": "java",
+            "name": "Launch AWTEx1",
+            "request": "launch",
+            "mainClass": "AWTEx1",
+            "projectName": "JPL Labs VSCode_9bec5638"
+        },
+        {
+            "type": "java",
+            "name": "Launch BankAccount",
+            "request": "launch",
+            "mainClass": "BankAccount",
+            "projectName": "JPL Labs VSCode_9bec5638"
+        },
+        {
+            "type": "java",
+            "name": "Launch CalculatorAWT",
+            "request": "launch",
+            "mainClass": "CalculatorAWT",
+            "projectName": "JPL Labs VSCode_9bec5638"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConOver",
+            "request": "launch",
+            "mainClass": "ConOver",
+            "projectName": "JPL Labs VSCode_9bec5638"
+        },
+        {
+            "type": "java",
+            "name": "Launch Duplicate",
+            "request": "launch",
+            "mainClass": "Duplicate",
+            "projectName": "JPL Labs VSCode_9bec5638"
+        },
+        {
+            "type": "java",
+            "name": "Launch Hello",
+            "request": "launch",
+            "mainClass": "Hello",
+            "projectName": "JPL Labs VSCode_9bec5638"
+        },
+        {
+            "type": "java",
+            "name": "Launch InterfacesExample",
+            "request": "launch",
+            "mainClass": "InterfacesExample",
+            "projectName": "JPL Labs VSCode_9bec5638"
+        },
+        {
+            "type": "java",
+            "name": "Launch MetOver",
+            "request": "launch",
+            "mainClass": "MetOver",
+            "projectName": "JPL Labs VSCode_9bec5638"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultipleInheritance",
+            "request": "launch",
+            "mainClass": "MultipleInheritance",
+            "projectName": "JPL Labs VSCode_9bec5638"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultiplicationTable",
+            "request": "launch",
+            "mainClass": "MultiplicationTable",
+            "projectName": "JPL Labs VSCode_9bec5638"
+        },
+        {
+            "type": "java",
+            "name": "Launch Reverse",
+            "request": "launch",
+            "mainClass": "Reverse",
+            "projectName": "JPL Labs VSCode_9bec5638"
+        },
+        {
+            "type": "java",
+            "name": "Launch Shape",
+            "request": "launch",
+            "mainClass": "Shape",
+            "projectName": "JPL Labs VSCode_9bec5638"
+        }
+    ]
+}
