@@ -27,7 +27,7 @@ public class JMenuExample implements ActionListener{
 
         jMenuBar.add(jmenu);
 
-        jTextArea.setBounds(50, 50, 150, 50);
+        jTextArea.setBounds(50, 50, 150, 30);
 
         f.setJMenuBar(jMenuBar);  
         f.add(jTextArea);
