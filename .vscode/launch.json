@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch JMenuExample",
+            "request": "launch",
+            "mainClass": "JMenuExample",
+            "projectName": "JPL Labs VSCode_9bec5638"
+        },
+        {
+            "type": "java",
             "name": "Launch ScrollPane",
             "request": "launch",
             "mainClass": "ScrollPane",
