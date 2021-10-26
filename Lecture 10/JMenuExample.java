@@ -3,20 +3,20 @@ import java.awt.event.*;
 
 public class JMenuExample implements ActionListener{
 
-    JMenuItem jcut = new JMenuItem("CUT");
-    JMenuItem jcopy = new JMenuItem("COPY");
-    JMenuItem jpaste = new JMenuItem("PASTE");
-    JMenuItem jselect = new JMenuItem("SELECT");   
+    JMenuItem jnew = new JMenuItem("New");
+    JMenuItem jsave = new JMenuItem("Save");
+    JMenuItem jsaveAs = new JMenuItem("Save As");
+    JMenuItem jclose = new JMenuItem("Close");   
 
-    JMenuItem jcut1 = new JMenuItem("CUT");
-    JMenuItem jcopy1 = new JMenuItem("COPY");
-    JMenuItem jpaste1 = new JMenuItem("PASTE");
-    JMenuItem jselect1 = new JMenuItem("SELECT"); 
+    JMenuItem jresize = new JMenuItem("Resize");
+    JMenuItem jrotate = new JMenuItem("Rotate");
+    JMenuItem jcolour = new JMenuItem("Colour");
+    JMenuItem jpaint = new JMenuItem("Paint"); 
 
-    JMenuItem jcut2 = new JMenuItem("CUT");
-    JMenuItem jcopy2 = new JMenuItem("COPY");
-    JMenuItem jpaste2 = new JMenuItem("PASTE");
-    JMenuItem jselect2= new JMenuItem("SELECT"); 
+    JMenuItem jzoomIn = new JMenuItem("Zoom In");
+    JMenuItem jzoomOut = new JMenuItem("Zoom Out");
+    JMenuItem jfullScreen = new JMenuItem("Full Screen");
+    JMenuItem jruler= new JMenuItem("Ruler"); 
 
     JTextArea jTextArea = new JTextArea(); 
 
@@ -25,36 +25,36 @@ public class JMenuExample implements ActionListener{
         JFrame f = new JFrame("Menu Bar Example");
         JMenuBar jMenuBar = new JMenuBar();
         
-        jcut.addActionListener(this);    
-        jcopy.addActionListener(this);    
-        jpaste.addActionListener(this);    
-        jselect.addActionListener(this);   
-        jcut1.addActionListener(this);    
-        jcopy1.addActionListener(this);    
-        jpaste1.addActionListener(this);    
-        jselect1.addActionListener(this); 
-        jcut2.addActionListener(this);    
-        jcopy2.addActionListener(this);    
-        jpaste2.addActionListener(this);    
-        jselect2.addActionListener(this); 
+        jnew.addActionListener(this);    
+        jsave.addActionListener(this);    
+        jsaveAs.addActionListener(this);    
+        jclose.addActionListener(this);   
+        jresize.addActionListener(this);    
+        jrotate.addActionListener(this);    
+        jcolour.addActionListener(this);    
+        jpaint.addActionListener(this); 
+        jzoomIn.addActionListener(this);    
+        jzoomOut.addActionListener(this);    
+        jfullScreen.addActionListener(this);    
+        jruler.addActionListener(this); 
 
-        JMenu jmenu = new JMenu("MENU 0");
-        jmenu.add(jcut);
-        jmenu.add(jcopy);
-        jmenu.add(jpaste);
-        jmenu.add(jselect);
+        JMenu jmenu = new JMenu("FILE");
+        jmenu.add(jnew);
+        jmenu.add(jsave);
+        jmenu.add(jsaveAs);
+        jmenu.add(jclose);
 
-        JMenu jmenu1 = new JMenu("MENU 1");
-        jmenu1.add(jcut1);
-        jmenu1.add(jcopy1);
-        jmenu1.add(jpaste1);
-        jmenu1.add(jselect1);
+        JMenu jmenu1 = new JMenu("HOME");
+        jmenu1.add(jresize);
+        jmenu1.add(jrotate);
+        jmenu1.add(jcolour);
+        jmenu1.add(jpaint);
 
-        JMenu jmenu2 = new JMenu("MENU 2");
-        jmenu2.add(jcut2);
-        jmenu2.add(jcopy2);
-        jmenu2.add(jpaste2);
-        jmenu2.add(jselect2);
+        JMenu jmenu2 = new JMenu("VIEW");
+        jmenu2.add(jzoomIn);
+        jmenu2.add(jzoomOut);
+        jmenu2.add(jfullScreen);
+        jmenu2.add(jruler);
 
         jMenuBar.add(jmenu);
         jMenuBar.add(jmenu1);
@@ -71,53 +71,53 @@ public class JMenuExample implements ActionListener{
 
     public void actionPerformed(ActionEvent e)
     {
-        if(e.getSource()==jcut)  
+        if(e.getSource()==jnew)  
         {
-            jTextArea.setText("You selected Cut in Menu 0.");
+            jTextArea.setText("You selected New.");
         }
-        if(e.getSource()==jcopy)  
+        if(e.getSource()==jsave)  
         {
-            jTextArea.setText("You selected Copy in Menu 0.");
+            jTextArea.setText("You selected Save.");
         }
-        if(e.getSource()==jpaste)  
+        if(e.getSource()==jsaveAs)  
         {
-            jTextArea.setText("You selected Paste in Menu 0.");
+            jTextArea.setText("You selected Save As.");
         }
-        if(e.getSource()==jselect)  
+        if(e.getSource()==jclose)  
         {
-            jTextArea.setText("You selected Select in Menu 0.");
+            jTextArea.setText("You selected Close.");
         }
-        if(e.getSource()==jcut1)  
+        if(e.getSource()==jresize)  
         {
-            jTextArea.setText("You selected Cut in Menu 1.");
+            jTextArea.setText("You selected Resize.");
         }
-        if(e.getSource()==jcopy1)  
+        if(e.getSource()==jrotate)  
         {
-            jTextArea.setText("You selected Copy in Menu 1.");
+            jTextArea.setText("You selected Rotate.");
         }
-        if(e.getSource()==jpaste1)  
+        if(e.getSource()==jcolour)  
         {
-            jTextArea.setText("You selected Paste in Menu 1.");
+            jTextArea.setText("You selected Colour.");
         }
-        if(e.getSource()==jselect1)  
+        if(e.getSource()==jpaint)  
         {
-            jTextArea.setText("You selected Select in Menu 1.");
+            jTextArea.setText("You selected Paint.");
         }
-        if(e.getSource()==jcut2)  
+        if(e.getSource()==jzoomIn)  
         {
-            jTextArea.setText("You selected Cut in Menu 2.");
+            jTextArea.setText("You selected Zoom In.");
         }
-        if(e.getSource()==jcopy2)  
+        if(e.getSource()==jzoomOut)  
         {
-            jTextArea.setText("You selected Copy in Menu 2.");
+            jTextArea.setText("You selected Zoom Out.");
         }
-        if(e.getSource()==jpaste2)  
+        if(e.getSource()==jfullScreen)  
         {
-            jTextArea.setText("You selected Paste in Menu 2.");
+            jTextArea.setText("You selected Full Screen.");
         }
-        if(e.getSource()==jselect2)  
+        if(e.getSource()==jruler)  
         {
-            jTextArea.setText("You selected Select in Menu 2.");
+            jTextArea.setText("You selected Ruler.");
         }
     }
     
