@@ -38,7 +38,7 @@ public class Duplicate{
             System.out.print(temp[i] + " ");
         }
 
-        sc.close();
+
         }
         
 }
