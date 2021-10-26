@@ -14,10 +14,6 @@ class Swing1 extends JFrame implements ActionListener{
     JPasswordField pass = new JPasswordField(); 
 
     JSlider jslider = new JSlider(JSlider.HORIZONTAL, 0, 50, 25);
-    jslider.setMinorTickSpacing(2);
-    jslider.setMajorTickSpacing(10);  
-    jslider.setPaintTicks(true);  
-    jslider.setPaintLabels(true); 
 
 
     String state[]={"Maharashtra","Gujarat","Karnataka"};   
@@ -64,7 +60,6 @@ class Swing1 extends JFrame implements ActionListener{
         
         name.setBounds(100, 0, 100, 30);
         roll.setBounds(100, 80, 80, 30);
-        //age.setBounds(100, 120, 50, 30);
         radmale.setBounds(100, 150, 75, 50);
         radfemale.setBounds(200, 150, 75, 50);
         radothers.setBounds(300, 150, 75, 50);
@@ -87,7 +82,6 @@ class Swing1 extends JFrame implements ActionListener{
         f.add(ladd);
         f.add(name);
         f.add(roll);
-        //f.add(age);
         f.add(radmale);
         f.add(radfemale);
         f.add(radothers);
@@ -128,6 +122,6 @@ class Swing1 extends JFrame implements ActionListener{
 public class JSwings_Components
 {
     public static void main(String args[]){
-        Swing1 sw = new Swing1();        
+        new Swing1();        
     }     
 }

@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ScrollPane",
+            "request": "launch",
+            "mainClass": "ScrollPane",
+            "projectName": "JPL Labs VSCode_9bec5638"
+        },
+        {
+            "type": "java",
+            "name": "Launch JSwings_Components",
+            "request": "launch",
+            "mainClass": "JSwings_Components",
+            "projectName": "JPL Labs VSCode_9bec5638"
+        },
+        {
+            "type": "java",
             "name": "Launch Jswings_Form",
             "request": "launch",
             "mainClass": "Jswings_Form",

@@ -8,7 +8,7 @@ public class BankAccount
         String n, t;
         long a;
         double b;
-
+        
 
         System.out.println("Enter Name : ");
         n = sc.nextLine();
@@ -35,6 +35,8 @@ public class BankAccount
         double w = sc.nextDouble();
         bank.withdraw(w);
         bank.display();
+
+        sc.close();
     }
 
 }

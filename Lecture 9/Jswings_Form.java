@@ -92,6 +92,6 @@ class Swing extends JFrame implements ActionListener{
 public class Jswings_Form
 {
     public static void main(String args[]){
-        Swing sw = new Swing();        
+        new Swing();        
     }     
 }
