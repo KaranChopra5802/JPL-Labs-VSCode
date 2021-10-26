@@ -1,7 +1,7 @@
 import java.awt.*;
 import java.awt.event.*;
 
-class awt implements ActionListener{
+class awt1 implements ActionListener{
 
     Button sub = new Button("SUBMIT");
     TextField name = new TextField();
@@ -20,7 +20,7 @@ class awt implements ActionListener{
     Label lgen = new Label("Gender");
     Label ladd = new Label("Address");
 
-    awt()
+    awt1()
     {
         Frame f = new Frame();
         f.setTitle("Student Details");
@@ -81,7 +81,7 @@ public class AWTEx1
 {
     public static void main(String args[])
     {
-        awt obj = new awt();
+        new awt1();
 
     }
 }

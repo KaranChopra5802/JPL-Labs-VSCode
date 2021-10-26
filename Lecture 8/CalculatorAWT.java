@@ -3,7 +3,6 @@ import java.awt.Frame;
 import java.awt.TextField;
 import java.awt.event.*;
 
-import javax.swing.Action;
 
 
 class Calculator implements ActionListener
@@ -107,7 +106,7 @@ class Calculator implements ActionListener
 public class CalculatorAWT {
     public static void main(String args[])
     {
-        Calculator cal = new Calculator();
+        new Calculator();
     }
     
 }

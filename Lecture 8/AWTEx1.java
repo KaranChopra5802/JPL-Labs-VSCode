@@ -81,7 +81,7 @@ public class AWTEx1
 {
     public static void main(String args[])
     {
-        awt obj = new awt();
+        new awt();
 
     }
 }
