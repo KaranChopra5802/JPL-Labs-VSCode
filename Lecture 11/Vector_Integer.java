@@ -80,7 +80,7 @@ public class Vector_Integer {
         System.out.println("The vector after vector.removeElement(2) is : " + vector); 
 
         vector.removeElementAt(0);
-        System.out.println("The vector after vector.removeElementAt(0)) is : " + vector);
+        System.out.println("The vector after vector.removeElementAt(0) is : " + vector);
 
         vector.setSize(5);
         size = vector.size();
