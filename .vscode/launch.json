@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Vector_Strings",
+            "request": "launch",
+            "mainClass": "Vector_Strings",
+            "projectName": "JPL Labs VSCode_9bec5638"
+        },
+        {
+            "type": "java",
+            "name": "Launch Vector_Integer",
+            "request": "launch",
+            "mainClass": "Vector_Integer",
+            "projectName": "JPL Labs VSCode_9bec5638"
+        },
+        {
+            "type": "java",
             "name": "Launch Multiplication",
             "request": "launch",
             "mainClass": "Multiplication",
