@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch indexOfCharacters",
+            "request": "launch",
+            "mainClass": "indexOfCharacters",
+            "projectName": "JPL Labs VSCode_9bec5638"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringPalindrome",
+            "request": "launch",
+            "mainClass": "StringPalindrome",
+            "projectName": "JPL Labs VSCode_9bec5638"
+        },
+        {
+            "type": "java",
+            "name": "Launch vowel",
+            "request": "launch",
+            "mainClass": "vowel",
+            "projectName": "JPL Labs VSCode_9bec5638"
+        },
+        {
+            "type": "java",
             "name": "Launch Vector_Strings",
             "request": "launch",
             "mainClass": "Vector_Strings",
