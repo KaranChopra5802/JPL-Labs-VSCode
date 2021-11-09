@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch comparePackUse",
+            "request": "launch",
+            "mainClass": "comparePackUse",
+            "projectName": "JPL Labs VSCode_9bec5638"
+        },
+        {
+            "type": "java",
             "name": "Launch indexOfCharacters",
             "request": "launch",
             "mainClass": "indexOfCharacters",

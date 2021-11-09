@@ -15,7 +15,6 @@ public class indexOfCharacters {
                     System.out.println("The index of "+c+" is "+j);
                 } 
             }
-        }
-        
+        }        
     }
 }
