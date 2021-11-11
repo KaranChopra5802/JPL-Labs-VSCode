@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch marksException",
+            "request": "launch",
+            "mainClass": "marksException",
+            "projectName": "JPL Labs VSCode_9bec5638"
+        },
+        {
+            "type": "java",
+            "name": "Launch exception",
+            "request": "launch",
+            "mainClass": "exception",
+            "projectName": "JPL Labs VSCode_9bec5638"
+        },
+        {
+            "type": "java",
             "name": "Launch comparePackUse",
             "request": "launch",
             "mainClass": "comparePackUse",
