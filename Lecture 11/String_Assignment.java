@@ -19,21 +19,21 @@ public class String_Assignment
         {
             System.out.println("Enter \n1.Delete a member \n2.Add member at specific location \n3.Add member at end of the list \n4.Print contents  ");    
             int in;
-            in = sc.nextInt();
+            in = Integer.parseInt(sc.nextLine());
             switch(in)
             {
                 case 1:
                 System.out.println("Enter the position at which deletion has to take place :");
-                int pos = sc.nextInt();
+                int pos = Integer.parseInt(sc.nextLine());
                 vector.remove(pos-1);
                 System.out.println("The vector is : " + vector);    
                 break;
 
                 case 2:
-                System.out.println("Enter the position at which insertion has to take place :");
-                int pos1 = sc.nextInt();
                 System.out.println("Enter the element that has to be entered :");
                 String input = sc.nextLine();
+                System.out.println("Enter the position at which insertion has to take place :");
+                int pos1 = Integer.parseInt(sc.nextLine());
                 vector.insertElementAt(input,pos1-1);
                 System.out.println("The vector is : " + vector);
                 break;
