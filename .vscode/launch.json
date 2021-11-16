@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch threads2",
+            "request": "launch",
+            "mainClass": "threads2",
+            "projectName": "JPL Labs VSCode_9bec5638"
+        },
+        {
+            "type": "java",
+            "name": "Launch threads",
+            "request": "launch",
+            "mainClass": "threads",
+            "projectName": "JPL Labs VSCode_9bec5638"
+        },
+        {
+            "type": "java",
+            "name": "Launch String_Assignment",
+            "request": "launch",
+            "mainClass": "String_Assignment",
+            "projectName": "JPL Labs VSCode_9bec5638"
+        },
+        {
+            "type": "java",
             "name": "Launch marksException",
             "request": "launch",
             "mainClass": "marksException",

@@ -5,18 +5,18 @@ public class JMenuExample implements ActionListener{
 
     JMenuItem jnew = new JMenuItem("New");
     JMenuItem jsave = new JMenuItem("Save");
-    JMenuItem jsaveAs = new JMenuItem("Save As");
+    JMenuItem jopen = new JMenuItem("Open");
     JMenuItem jclose = new JMenuItem("Close");   
 
-    JMenuItem jresize = new JMenuItem("Resize");
-    JMenuItem jrotate = new JMenuItem("Rotate");
-    JMenuItem jcolour = new JMenuItem("Colour");
-    JMenuItem jpaint = new JMenuItem("Paint"); 
+    JMenuItem jcut = new JMenuItem("Cut");
+    JMenuItem jcopy = new JMenuItem("Copy");
+    JMenuItem jpaste = new JMenuItem("Paste");
+    JMenuItem jselectAll = new JMenuItem("Select All"); 
 
-    JMenuItem jzoomIn = new JMenuItem("Zoom In");
-    JMenuItem jzoomOut = new JMenuItem("Zoom Out");
-    JMenuItem jfullScreen = new JMenuItem("Full Screen");
-    JMenuItem jruler= new JMenuItem("Ruler"); 
+    JMenuItem jtables = new JMenuItem("Tables");
+    JMenuItem jpictures = new JMenuItem("Pictures");
+
+    JMenuItem jaboutUs = new JMenuItem("About Us");
 
     JTextArea jTextArea = new JTextArea(); 
 
@@ -27,38 +27,39 @@ public class JMenuExample implements ActionListener{
         
         jnew.addActionListener(this);    
         jsave.addActionListener(this);    
-        jsaveAs.addActionListener(this);    
+        jopen.addActionListener(this);    
         jclose.addActionListener(this);   
-        jresize.addActionListener(this);    
-        jrotate.addActionListener(this);    
-        jcolour.addActionListener(this);    
-        jpaint.addActionListener(this); 
-        jzoomIn.addActionListener(this);    
-        jzoomOut.addActionListener(this);    
-        jfullScreen.addActionListener(this);    
-        jruler.addActionListener(this); 
+        jcut.addActionListener(this);    
+        jcopy.addActionListener(this);    
+        jpaste.addActionListener(this);    
+        jselectAll.addActionListener(this); 
+        jtables.addActionListener(this);    
+        jpictures.addActionListener(this);    
+        jaboutUs.addActionListener(this);
 
         JMenu jmenu = new JMenu("FILE");
         jmenu.add(jnew);
         jmenu.add(jsave);
-        jmenu.add(jsaveAs);
+        jmenu.add(jopen);
         jmenu.add(jclose);
 
-        JMenu jmenu1 = new JMenu("HOME");
-        jmenu1.add(jresize);
-        jmenu1.add(jrotate);
-        jmenu1.add(jcolour);
-        jmenu1.add(jpaint);
+        JMenu jmenu1 = new JMenu("EDIT");
+        jmenu1.add(jcut);
+        jmenu1.add(jcopy);
+        jmenu1.add(jpaste);
+        jmenu1.add(jselectAll);
 
-        JMenu jmenu2 = new JMenu("VIEW");
-        jmenu2.add(jzoomIn);
-        jmenu2.add(jzoomOut);
-        jmenu2.add(jfullScreen);
-        jmenu2.add(jruler);
+        JMenu jmenu2 = new JMenu("INSERT");
+        jmenu2.add(jtables);
+        jmenu2.add(jpictures);
+
+        JMenu jmenu3 = new JMenu("HELP");
+        jmenu3.add(jaboutUs);
 
         jMenuBar.add(jmenu);
         jMenuBar.add(jmenu1);
         jMenuBar.add(jmenu2);
+        jMenuBar.add(jmenu3);
 
         jTextArea.setBounds(50, 50, 200, 30);
 
@@ -79,45 +80,41 @@ public class JMenuExample implements ActionListener{
         {
             jTextArea.setText("You selected Save.");
         }
-        if(e.getSource()==jsaveAs)  
+        if(e.getSource()==jopen)  
         {
-            jTextArea.setText("You selected Save As.");
+            jTextArea.setText("You selected Open.");
         }
         if(e.getSource()==jclose)  
         {
             jTextArea.setText("You selected Close.");
         }
-        if(e.getSource()==jresize)  
+        if(e.getSource()==jcut)  
         {
-            jTextArea.setText("You selected Resize.");
+            jTextArea.setText("You selected Cut.");
         }
-        if(e.getSource()==jrotate)  
+        if(e.getSource()==jcopy)  
         {
-            jTextArea.setText("You selected Rotate.");
+            jTextArea.setText("You selected Copy.");
         }
-        if(e.getSource()==jcolour)  
+        if(e.getSource()==jpaste)  
         {
-            jTextArea.setText("You selected Colour.");
+            jTextArea.setText("You selected Paste.");
         }
-        if(e.getSource()==jpaint)  
+        if(e.getSource()==jselectAll)  
         {
-            jTextArea.setText("You selected Paint.");
+            jTextArea.setText("You selected Select All.");
         }
-        if(e.getSource()==jzoomIn)  
+        if(e.getSource()==jtables)  
         {
-            jTextArea.setText("You selected Zoom In.");
+            jTextArea.setText("You selected Tables.");
         }
-        if(e.getSource()==jzoomOut)  
+        if(e.getSource()==jpictures)  
         {
-            jTextArea.setText("You selected Zoom Out.");
+            jTextArea.setText("You selected Pictures.");
         }
-        if(e.getSource()==jfullScreen)  
+        if(e.getSource()==jaboutUs)  
         {
-            jTextArea.setText("You selected Full Screen.");
-        }
-        if(e.getSource()==jruler)  
-        {
-            jTextArea.setText("You selected Ruler.");
+            jTextArea.setText("You selected About Us.");
         }
     }
     
