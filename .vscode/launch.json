@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch revUsingArrayList",
+            "request": "launch",
+            "mainClass": "revUsingArrayList",
+            "projectName": "JPL Labs VSCode_9bec5638"
+        },
+        {
+            "type": "java",
+            "name": "Launch addUsingCommandLine",
+            "request": "launch",
+            "mainClass": "addUsingCommandLine",
+            "projectName": "JPL Labs VSCode_9bec5638"
+        },
+        {
+            "type": "java",
             "name": "Launch String_Assignment2",
             "request": "launch",
             "mainClass": "String_Assignment2",
